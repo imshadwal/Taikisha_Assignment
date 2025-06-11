@@ -108,7 +108,6 @@ export default {
         console.error("Error fetching chart data:", error);
         // Fallback data
         const fallbackData = [
-          { name: "John Smith", age: 28 },
           { name: "Sarah Johnson", age: 32 },
           { name: "Michael Brown", age: 29 },
           { name: "Emily Davis", age: 26 },
